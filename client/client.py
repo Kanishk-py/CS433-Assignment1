@@ -14,8 +14,8 @@ def recv(bufferSize):
 
 # DEFINING SERVER AND PORT ADDRESSES
 # YOU CAN GET SERVER IP WHEN RUNNING server.py "LISTENING AT ....."
-# SERVER = socket.gethostbyname(socket.gethostname()) # Can be used when running on same system
-SERVER = '10.7.52.153' # Used when running on different system(or VM)
+SERVER = socket.gethostbyname(socket.gethostname()) # Can be used when running on same system
+# SERVER = '' # Used when running on different system(or VM)
 PORT = 55555
 
 # ESTABLISHING SOCKET AND CONNECTING TO SERVER
